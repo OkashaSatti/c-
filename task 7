@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int val;
+    cout<<"Input the number upto which the cubes from 1 to that number will display: ";
+    cin>>val;
+    for(int i=1; i<=val; i++)
+    {
+        cout<<"The cube is: "<<i*i*i<<endl;
+    }
+}
